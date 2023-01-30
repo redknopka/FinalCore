@@ -1809,8 +1809,7 @@ input:checked + .lang-text {
 .central-content {
   display: flex;
   flex-direction: column;
-  max-width: 1120px;
-  margin-left: 30px; }
+  max-width: 1120px; }
 
 .content-header {
   font-family: "TT Lakes", sans-serif;
@@ -1832,6 +1831,7 @@ input:checked + .lang-text {
   gap: 16px; }
 
 .make_ticket {
+  font-family: "TT Lakes", sans-serif;
   display: none;
   color: #1b1c21;
   font-weight: 600;
@@ -1839,6 +1839,7 @@ input:checked + .lang-text {
   white-space: nowrap; }
 
 .check_status {
+  font-family: "TT Lakes", sans-serif;
   display: none;
   color: #1b1c21;
   font-weight: 600;
