@@ -1158,7 +1158,8 @@ html {
     min-width: 220px;
     height: 72px;
     max-height: 74px;
-    margin-left: 16px; }
+    margin-left: 16px;
+    padding-left: 16px; }
     @media screen and (max-width: 767px) {
       .brands__card {
         margin-left: 0px;
