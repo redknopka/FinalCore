@@ -1809,7 +1809,8 @@ input:checked + .lang-text {
 .central-content {
   display: flex;
   flex-direction: column;
-  max-width: 1120px; }
+  max-width: 1120px;
+  overflow-x: hidden; }
 
 .content-header {
   font-family: "TT Lakes", sans-serif;
