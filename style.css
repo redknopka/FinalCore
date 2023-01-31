@@ -1049,7 +1049,8 @@ html {
     height: 24px;
     width: 24px; }
   .prices__footer {
-    max-width: 420px; }
+    max-width: 420px;
+    padding-left: 16px; }
   .prices__disclaimer {
     margin-bottom: 24px; }
   .prices__offer-link {
@@ -1230,7 +1231,7 @@ html {
 
 .item-group {
   width: 98.55px;
-  height: 50.81px;
+  height: 51.00px;
   border-radius: 0;
   background: url(./static/group.svg) no-repeat; }
 
@@ -1393,7 +1394,7 @@ html {
 
 .item-group {
   width: 98.55px;
-  height: 50.81px;
+  height: 51.00px;
   border-radius: 0;
   background: url(./static/group.svg) no-repeat; }
 
@@ -1502,7 +1503,11 @@ html {
   position: fixed;
   left: 0px;
   opacity: 1;
-  z-index: 3; }
+  z-index: 3;
+  height: 100%; }
+  @media screen and (max-width: 767px) {
+    .side-content {
+      overflow-y: scroll; } }
   @media screen and (min-width: 1440px) {
     .side-content {
       box-shadow: none;
@@ -1622,7 +1627,7 @@ input:checked + .lang-text {
 
 .item-group {
   width: 98.55px;
-  height: 50.81px;
+  height: 51.00px;
   border-radius: 0;
   background: url(./static/group.svg) no-repeat; }
 
@@ -1822,7 +1827,8 @@ input:checked + .lang-text {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 16px; }
+  gap: 16px;
+  padding-left: 16px; }
 
 .right-menu {
   display: flex;
