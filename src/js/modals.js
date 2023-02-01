@@ -1,4 +1,4 @@
-import {DESKTOP_HEIGHT} from '../../src/js/variables';
+import {DESKTOP_HEIGHT, OVERLAYS} from '../../src/js/variables';
 let overlayContent1 = document.querySelector('.overlay1');
 let overlayContent2 = document.querySelector('.overlay2');
 let overlayContent3 = document.querySelector('.overlay3');
@@ -50,10 +50,10 @@ for (let i = 0; i < closeSideContent.length; i++) {
         closeModals();
     });
 }
-let centralContentIsBlur = document.querySelector('.central-content');
-let isCentralContentBlured = centralContentIsBlur.classList.contains('blur');
 window.addEventListener('click', function(evt) {
-  if (isCentralContentBlured && evt.target.classList.contains("overlay-modal")) {
+  console.log(evt.target);
+  let clickedElement = evt.target.classList[0]
+  if (OVERLAYS.includes(clickedElement)) {
     closeModals();
   }
 });

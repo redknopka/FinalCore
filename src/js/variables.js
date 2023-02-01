@@ -5,3 +5,5 @@ export const GRID_ROW_MOBI = 6;
 export const GRID_ROW_DESKTOP = 8;
 export const AMOUNT_CARDS = 11;
 export const DESKTOP_HEIGHT = 1440;
+
+export const OVERLAYS = ['overlay1', 'overlay', 'overlay3'];
