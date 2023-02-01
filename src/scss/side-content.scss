@@ -13,7 +13,9 @@
   opacity: 1;
   z-index: 3;
   height: 100%;
-  overflow-y: scroll;
+  @media screen and (max-height: 767px) {
+    overflow-y: scroll;
+  }
   @media screen and (min-width: 1440px) {
     box-shadow: none;
     position: static;
