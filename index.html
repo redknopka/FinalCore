@@ -16,7 +16,7 @@
         <button class="side-content__header-button content__button item-search item-button" type="button"></button>
       </nav>
     </header>
-    <main>
+    <article>
       <nav class="side-content__list">
         <button class="side-content__list-item" type="button">Ремонт техники</button>
         <button class="side-content__list-item" type="button">Услуги и сервисы</button>
@@ -27,7 +27,7 @@
         <button class="side-content__list-item" type="button">Наши сервисные центры</button>
         <button class="side-content__list-item" type="button">Контакты</button>
       </nav>
-    </main>
+    </article>
     <footer class="footer">
       <nav class="footer__functions">
         <button class="footer__functions-button content__button item-call item-button" type="button"></button>
@@ -63,20 +63,20 @@
         Обратная связь
       </div>
     </header>
-    <main class="feedback__main">
+    <section class="feedback__main">
       <form action="#" class="feedback__form">
-        <input class="feedback__input" type="name" name="name" placeholder="Имя" required>
-        <input class="feedback__input" type="tel" name="phone" placeholder="Телефон" maxlength="12" required>
-        <input class="feedback__input" type="email" name="email" placeholder="Электронная почта" required>
-        <textarea class="feedback__input feedback__textarea" type="message" name="message" placeholder="Сообщение" required></textarea>
+        <input class="feedback__input" type="name" placeholder="Имя" required>
+        <input class="feedback__input" type="tel" placeholder="Телефон" maxlength="21" required>
+        <input class="feedback__input" type="email" placeholder="Электронная почта" required>
+        <textarea class="feedback__input feedback__textarea" name="message" placeholder="Сообщение" required></textarea>
         <p class="feedback__description">
           Нажимая “отправить”, вы даете согласие на <a href="#" class="feedback__link"><span class="link-text">обработку персональных данных</span></a> и соглашаетесь с нашей <a href="#" class="feedback__link"><span class="link-text">политикой конфиденциальности</span></a>
         </p>
         <button class="feedback__button item-button" type="submit">Отправить
-          <div class="feedback__icon item-button"></div>
+          <img src="./img/ic/goside.svg" alt="Go">
         </button>
       </form>
-    </main>
+    </section>
   </div>
 </div>
 <div class="overlay3 invisible">
@@ -87,17 +87,17 @@
         Заказать звонок
       </div>
     </header>
-    <main class="callback__main">
+    <section class="callback__main">
       <form action="#" class="callback__form">
-        <input class="callback__input" type="tel" name="phone" placeholder="Телефон" maxlength="12" required>
+        <input class="callback__input" type="tel" placeholder="Телефон" maxlength="21" required>
         <p class="callback__description">
           Нажимая “отправить”, вы даете согласие на <a href="#" class="callback__link"><span class="link-text">обработку персональных данных</span></a> и соглашаетесь с нашей <a href="#" class="callback__link"><span class="link-text">политикой конфиденциальности</span></a>
         </p>
         <button class="callback__button item-button" type="submit">Отправить
-          <div class="callback__icon item-button"></div>
+          <img src="./img/ic/goside.svg" alt="Go">
         </button>
       </form>
-    </main>
+    </section>
   </div>
 </div>
 <div class="central-content">
@@ -155,7 +155,7 @@
     <header class="brands__header">
       <h2 class="brands__header-title h2-title">Ремонт техники различных брендов</h2>
     </header>
-    <main class="brands__main">
+    <article class="brands__main">
       <div class="brands__list swiper1">
         <div class="swiper-wrapper">
           <article class="brands__card swiper-slide">
@@ -227,7 +227,7 @@
         </div>
         <div class="swiper-pagination1"></div>
       </div>
-    </main>
+    </article>
     <footer class="brands__footer">
       <button class="brands__footer-button show-more">Показать все</button>
     </footer>
@@ -236,7 +236,7 @@
     <header class="technics__header">
       <h2 class="technics__header-title h2-title">Ремонт различных видов техники</h2>
     </header>
-    <main class="technics__main">
+    <article class="technics__main">
       <div class="technics__list swiper2">
         <div class="swiper-wrapper">
           <article class="technics__card swiper-slide">
@@ -308,7 +308,7 @@
         </div>
         <div class="swiper-pagination2"></div>
       </div>
-    </main>
+    </article>
     <footer class="technics__footer">
       <button class="technics__footer-button show-more">Показать все</button>
     </footer>
@@ -317,7 +317,7 @@
     <header class="prices__header">
       <h2 class="prices__header-title h2-title">Цены на услуги</h2>
     </header>
-    <main class="prices__main">
+    <article class="prices__main">
       <div class="prices__list swiper3">
         <div class="prices__columns">
           <div class="prices__columns-service">Ремонтные услуги</div>
@@ -338,7 +338,7 @@
               <div class="prices__columns-time">Срок</div>
               <div class="prices__column3">30 мин</div>
             </div>
-            <button class="prices__order item-button">Заказать<div class="prices__column4"></div></button>
+            <button class="prices__order item-button">Заказать<img src="./img/ic/goside.svg" alt="go"></button>
           </div>
           <div class="prices__card swiper-slide">
             <div class="prices__card-content11">
@@ -352,7 +352,7 @@
             <div class="prices__card-content13">
               <div class="prices__columns-time">Срок</div>
               <div class="prices__column3">30-120 мин</div></div>
-            <button class="prices__order item-button">Заказать<div class="prices__column4"></div></button>
+            <button class="prices__order item-button">Заказать<img src="./img/ic/goside.svg" alt="go"></button>
           </div>
           <div class="prices__card swiper-slide">
             <div class="prices__card-content11">
@@ -367,7 +367,7 @@
               <div class="prices__columns-time">Срок</div>
               <div class="prices__column3">30-120 мин</div>
             </div>
-            <button class="prices__order item-button">Заказать<div class="prices__column4"></div></button>
+            <button class="prices__order item-button">Заказать<img src="./img/ic/goside.svg" alt="go"></button>
           </div>
           <div class="prices__card swiper-slide">
             <div class="prices__card-content11">
@@ -382,7 +382,7 @@
               <div class="prices__columns-time">Срок</div>
               <div class="prices__column3">30-120 мин</div>
             </div>
-            <button class="prices__order item-button">Заказать<div class="prices__column4"></div></button>
+            <button class="prices__order item-button">Заказать<img src="./img/ic/goside.svg" alt="go"></button>
           </div>
           <div class="prices__card swiper-slide">
             <div class="prices__card-content11">
@@ -397,12 +397,12 @@
               <div class="prices__columns-time">Срок</div>
               <div class="prices__column3">30-120 мин</div>
             </div>
-            <button class="prices__order item-button">Заказать<div class="prices__column4"></div></button>
+            <button class="prices__order item-button">Заказать<img src="./img/ic/goside.svg" alt="go"></button>
           </div>
         </div>
         <div class="swiper-pagination3"></div>
       </div>
-    </main>
+    </article>
     <footer class="prices__footer">
       <div class="prices__disclaimer">
         Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.

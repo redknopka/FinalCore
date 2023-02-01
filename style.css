@@ -1101,6 +1101,14 @@ html {
     color: #b5b6bc;
     box-shadow: none;
     outline: none !important; }
+    .callback__input::-webkit-input-placeholder {
+      color: #7e7e82; }
+    .callback__input::-moz-placeholder {
+      color: #7e7e82; }
+    .callback__input:-ms-input-placeholder {
+      color: #7e7e82; }
+    .callback__input::placeholder {
+      color: #7e7e82; }
   .callback__title {
     font-size: 24px; }
   .callback__button {
@@ -1181,9 +1189,17 @@ html {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
-    color: #b5b6bc;
+    color: #1b1c21;
     box-shadow: none;
     outline: none !important; }
+    .feedback__input::-webkit-input-placeholder {
+      color: #7e7e82; }
+    .feedback__input::-moz-placeholder {
+      color: #7e7e82; }
+    .feedback__input:-ms-input-placeholder {
+      color: #7e7e82; }
+    .feedback__input::placeholder {
+      color: #7e7e82; }
   .feedback__textarea {
     height: 118px; }
   .feedback__title {
@@ -1216,7 +1232,8 @@ html {
   max-width: 1120px;
   min-width: 320px;
   border-bottom: 1px solid #d9fff5;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  background: #ffffff; }
   .prices__header {
     padding: 0;
     margin: 0; }
@@ -1286,7 +1303,9 @@ html {
         display: none; } }
   .prices__card {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    height: 64px;
+    border-bottom: 2px solid #eaeaea; }
     @media screen and (max-width: 767px) {
       .prices__card {
         flex-direction: column;
@@ -1362,7 +1381,8 @@ html {
   margin: 0;
   padding: 0;
   padding-bottom: 50px;
-  max-width: 1120px; }
+  max-width: 1120px;
+  background: #ffffff; }
   @media screen and (max-width: 767px) {
     .technics {
       padding-bottom: 0px; } }
@@ -1422,7 +1442,8 @@ html {
   padding: 0;
   min-width: 320px;
   border-bottom: 1px solid #d9fff5;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  background: #ffffff; }
   @media screen and (max-width: 767px) {
     .brands {
       padding-bottom: 0px; } }
@@ -1607,7 +1628,8 @@ html {
   padding-right: 4px;
   padding-top: 16px;
   padding-bottom: 19px;
-  text-align: center; }
+  text-align: center;
+  background: #ffffff; }
   @media screen and (max-width: 767px) {
     .info {
       flex-direction: column; } }
@@ -1757,7 +1779,8 @@ html {
 
 .footer {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  background: #ffffff; }
 
 .footer__functions {
   display: flex;
@@ -1994,7 +2017,8 @@ input:checked + .lang-text {
   border-bottom: 1px solid #d9fff5;
   align-items: center;
   justify-content: space-between;
-  height: 88px; }
+  height: 88px;
+  background: #ffffff; }
   @media screen and (min-width: 768px) and (max-width: 1439px) {
     .links {
       margin: 0;
@@ -2039,7 +2063,8 @@ input:checked + .lang-text {
   -ms-overflow-style: none;
   scrollbar-width: none;
   overflow-y: scroll;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  background: #ffffff; }
   .services__button {
     height: 23px;
     flex-shrink: 0;
@@ -2061,7 +2086,8 @@ input:checked + .lang-text {
   margin-left: 16px;
   margin-right: 16px;
   text-align: left;
-  margin-bottom: 16px; }
+  margin-bottom: 16px;
+  background: #ffffff; }
   .description__part1 {
     display: block; }
   .description__part2 {
@@ -2079,7 +2105,8 @@ input:checked + .lang-text {
         display: inline; } }
 
 .aside {
-  padding-left: 16px; }
+  padding-left: 16px;
+  background: #ffffff; }
   .aside__read-more {
     display: flex;
     align-items: center;
@@ -2093,7 +2120,8 @@ input:checked + .lang-text {
   display: flex;
   align-items: center;
   gap: 14px;
-  font-weight: bold; }
+  font-weight: bold;
+  background: #ffffff; }
   .title::before {
     content: "";
     width: 4px;
@@ -2105,7 +2133,8 @@ input:checked + .lang-text {
   display: flex;
   flex-direction: column;
   max-width: 1120px;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background: #ffffff; }
 
 .content-header {
   font-family: "TT Lakes", sans-serif;
@@ -2233,7 +2262,8 @@ input:checked + .lang-text {
   border-bottom: 1px solid #d9fff5;
   align-items: center;
   justify-content: space-between;
-  height: 88px; }
+  height: 88px;
+  background: #ffffff; }
   @media screen and (min-width: 768px) and (max-width: 1439px) {
     .links {
       margin: 0;
