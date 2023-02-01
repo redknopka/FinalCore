@@ -1,7 +1,7 @@
 import {MIN_HEIGHT_GRID_4, MIN_HEIGHT_GRID_3, MOBI_HEIGHT, GRID_ROW_MOBI, GRID_ROW_DESKTOP, AMOUNT_CARDS, DESKTOP_HEIGHT} from '../../src/js/variables';
 console.log(window.innerWidth);
 import Swiper, { Navigation, Pagination } from 'swiper';
-function initSlider1() {
+function initSliderBrands() {
   if (window.innerWidth < MOBI_HEIGHT ) {
     console.log('инициализирую слайдер');
     let slider = document.querySelector('.swiper1');
@@ -17,7 +17,7 @@ function initSlider1() {
     slider.dataset.mobile = 'true';
   }
 }
-function initSlider2() {
+function initSliderTechnics() {
   if (window.innerWidth < MOBI_HEIGHT ) {
     console.log('инициализирую слайдер');
     let slider = document.querySelector('.swiper2');
@@ -33,7 +33,7 @@ function initSlider2() {
     slider.dataset.mobile = 'true';
   }
 }
-function initSlider3() {
+function initSliderPrices() {
   if (window.innerWidth < MOBI_HEIGHT ) {
     console.log('инициализирую слайдер');
     let slider = document.querySelector('.swiper3');
@@ -49,6 +49,6 @@ function initSlider3() {
     slider.dataset.mobile = 'true';
   }
 }
-initSlider1();
-initSlider2();
-initSlider3();
+initSliderBrands();
+initSliderTechnics();
+initSliderPrices();

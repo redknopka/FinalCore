@@ -50,12 +50,11 @@ for (let i = 0; i < closeSideContent.length; i++) {
         closeModals();
     });
 }
-window.onclick = e => {
-    //console.log(e.target);
-    let centralContentIsBlur = document.querySelector('.central-content');
-    let isCentralContentBlured = centralContentIsBlur.classList.contains('blur');
-    if (isCentralContentBlured && e.target.classList.contains("overlay-modal")) {
-        closeModals();
-    }
-}
+let centralContentIsBlur = document.querySelector('.central-content');
+let isCentralContentBlured = centralContentIsBlur.classList.contains('blur');
+window.addEventListener('click', function(evt) {
+  if (isCentralContentBlured && evt.target.classList.contains("overlay-modal")) {
+    closeModals();
+  }
+});
 

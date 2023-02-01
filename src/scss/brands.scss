@@ -6,6 +6,7 @@
   min-width: 320px;
   border-bottom: 1px solid $titleBorder;
   padding-bottom: 50px;
+  background: $white;
   @media screen and (max-width: 767px) {
     padding-bottom: 0px;
   }
