@@ -1789,10 +1789,8 @@ html {
   left: 0px;
   opacity: 1;
   z-index: 3;
-  height: 100%; }
-  @media screen and (max-width: 767px) {
-    .side-content {
-      overflow-y: scroll; } }
+  height: 100%;
+  overflow-y: scroll; }
   @media screen and (min-width: 1440px) {
     .side-content {
       box-shadow: none;
