@@ -129,7 +129,6 @@
   }
   &__order {
     padding: 8px 12px;
-    background: $pink;
     border: none;
     border-radius: 16px;
     font-family: 'TT Lakes';
@@ -141,17 +140,18 @@
     align-items: center;
     margin: auto 0;
     margin-left: auto;
-    max-width: 119px;
-    max-height: 32px;
+    min-width: 119px;
+    min-height: 32px;
+    background: url("../img/order.svg") no-repeat;
     @media screen and (max-width: 767px) {
       position: absolute;
       bottom: 20px;
     }
-    &-pic {
+    /*&-pic {
       width: 24px;
       height: 24px;
       content: url("../img/ic/goside.svg");
-    }
+    }*/
     /*&-pic:after {
       //<img src="./img/ic/goside.svg" alt="go">
       content: "";

@@ -76,8 +76,9 @@
     align-items: center;
     align-self: flex-end;
     margin: auto 0;
-    max-width: 119px;
-    max-height: 32px;
+    min-width: 119px;
+    min-height: 32px;
+    background: url("../img/order.svg") no-repeat;
   }
   &__icon {
     background: url('../img/ic/goside.svg') no-repeat;
