@@ -1270,6 +1270,9 @@ html {
       font-family: 'TT Lakes';
       font-size: 14px;
       color: #7e7e82; }
+      @media screen and (max-width: 767px) {
+        .prices__columns-service {
+          flex-basis: unset; } }
       @media screen and (min-width: 1440px) {
         .prices__columns-service {
           flex-basis: 40%; } }
@@ -1278,6 +1281,9 @@ html {
       font-family: 'TT Lakes';
       font-size: 14px;
       color: #7e7e82; }
+      @media screen and (max-width: 767px) {
+        .prices__columns-price {
+          flex-basis: unset; } }
       @media screen and (min-width: 1440px) {
         .prices__columns-price {
           flex-basis: 25%; } }
@@ -1330,16 +1336,25 @@ html {
         border: 1px solid #eaeaea; } }
     .prices__card-content11 {
       flex-basis: 53%; }
+      @media screen and (max-width: 767px) {
+        .prices__card-content11 {
+          flex-basis: unset; } }
       @media screen and (min-width: 1440px) {
         .prices__card-content11 {
           flex-basis: 40%; } }
     .prices__card-content12 {
       flex-basis: 15%; }
+      @media screen and (max-width: 767px) {
+        .prices__card-content12 {
+          flex-basis: unset; } }
       @media screen and (min-width: 1440px) {
         .prices__card-content12 {
           flex-basis: 25%; } }
     .prices__card-content13 {
       flex-basis: 15%; }
+      @media screen and (max-width: 767px) {
+        .prices__card-content13 {
+          flex-basis: unset; } }
       @media screen and (min-width: 1440px) {
         .prices__card-content13 {
           flex-basis: 15%; } }
@@ -1372,7 +1387,8 @@ html {
     @media screen and (max-width: 767px) {
       .prices__order {
         position: absolute;
-        bottom: 20px; } }
+        bottom: 20px;
+        left: 130px; } }
   .prices__column4 {
     background: url(./static/goside.svg) no-repeat;
     border: none;
