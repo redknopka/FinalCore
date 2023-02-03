@@ -42,6 +42,9 @@
       font-family: 'TT Lakes';
       font-size: 14px;
       color: $textGray;
+      @media screen and (max-width: 767px) {
+        flex-basis: unset;
+      }
       @media screen and (min-width: 1440px) {
         flex-basis: 40%;
       }
@@ -51,6 +54,9 @@
       font-family: 'TT Lakes';
       font-size: 14px;
       color: $textGray;
+      @media screen and (max-width: 767px) {
+        flex-basis: unset;
+      }
       @media screen and (min-width: 1440px) {
         flex-basis: 25%;
       }
@@ -110,18 +116,27 @@
     }
     &-content11 {
       flex-basis: 53%;
+      @media screen and (max-width: 767px) {
+        flex-basis: unset;
+      }
       @media screen and (min-width: 1440px) {
         flex-basis: 40%;
       }
     }
     &-content12 {
       flex-basis: 15%;
+      @media screen and (max-width: 767px) {
+        flex-basis: unset;
+      }
       @media screen and (min-width: 1440px) {
         flex-basis: 25%;
       }
     }
     &-content13 {
       flex-basis: 15%;
+      @media screen and (max-width: 767px) {
+        flex-basis: unset;
+      }
       @media screen and (min-width: 1440px) {
         flex-basis: 15%;
       }
@@ -146,6 +161,7 @@
     @media screen and (max-width: 767px) {
       position: absolute;
       bottom: 20px;
+      left: 130px;
     }
     /*&-pic {
       width: 24px;
