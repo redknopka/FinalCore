@@ -1,3 +1,4 @@
+@import "variables";
 .prices {
   max-width: 1120px;
   min-width: 320px;
@@ -7,12 +8,17 @@
   &__header {
     padding: 0;
     margin: 0;
+    background: linear-gradient(270deg, $mainBackground 0%, $white 98.61%);
   }
   &__main {
     margin-bottom: 24px;
   }
   &__cards {
     margin-bottom: 16px;
+    background: $white;
+    &.swiper-wrapper {
+      gap: 0px;
+    }
   }
   &__list {
     display: flex;
@@ -87,6 +93,9 @@
     align-items: center;
     height: 64px;
     border-bottom: 2px solid $cardBorder;
+    &:last-child {
+      border-bottom: none;
+    }
     @media screen and (max-width: 767px) {
       flex-direction: column;
       max-width: 226px;
@@ -130,14 +139,24 @@
     text-transform: uppercase;
     display: flex;
     align-items: center;
-    align-self: flex-end;
     margin: auto 0;
+    margin-left: auto;
     max-width: 119px;
     max-height: 32px;
     @media screen and (max-width: 767px) {
       position: absolute;
       bottom: 20px;
     }
+    &-pic {
+      width: 24px;
+      height: 24px;
+      content: url("../img/ic/goside.svg");
+    }
+    /*&-pic:after {
+      //<img src="./img/ic/goside.svg" alt="go">
+      content: "";
+
+    }*/
   }
   &__column4 {
     background: url('../img/ic/goside.svg') no-repeat;

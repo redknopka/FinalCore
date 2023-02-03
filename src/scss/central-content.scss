@@ -4,12 +4,13 @@
 @import 'description';
 @import 'aside';
 @import 'title';
+@import "variables";
 .central-content {
   display: flex;
   flex-direction: column;
   max-width: 1120px;
   overflow-x: hidden;
-  background: $white;
+  background: $mainBackground;
 }
 .content-header {
   font-family: "TT Lakes", sans-serif;

@@ -1,5 +1,6 @@
 @import 'item';
 @import 'footer';
+@import "variables";
 .side-content {
   box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
   max-width: 320px;
@@ -19,6 +20,7 @@
   @media screen and (min-width: 1440px) {
     box-shadow: none;
     position: static;
+    background: $mainBackground;
   }
   &__header {
     display: flex;

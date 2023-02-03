@@ -1,3 +1,4 @@
+@import "variables";
 .technics {
   border-bottom: 1px solid $titleBorder;
   margin: 0;
@@ -7,6 +8,9 @@
   background: $white;
   @media screen and (max-width: 767px) {
     padding-bottom: 0px;
+  }
+  &__header {
+    background: linear-gradient(270deg, $mainBackground 0%, $white 98.61%);
   }
   &__content {
     display: flex;
